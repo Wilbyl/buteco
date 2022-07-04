@@ -1,6 +1,6 @@
 export const Game = () =={
     return (<>
-        <h1> eu sou a Game</h1>
+        <h1> eu sou um Game</h1>
         </>
     );
 };

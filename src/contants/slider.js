@@ -1,3 +1,6 @@
+
+
+
 export const info = [
     {
       img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG_4PPCdBxmoCwpmzL69091XiyKXwuzxjgyA&usqp=CAU',

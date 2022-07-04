@@ -7,6 +7,7 @@ import {FooterS} from "./components/footer/index";
 import {Main} from "./pages/main/index";
 import {Register} from "./pages/register/Register"
 import {Login} from "./pages/login/Login"
+import {Mesa} from  "./pages/mesa/index"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
@@ -17,6 +18,7 @@ ReactDOM.render(
        <Route path="/" element={<Main />} />
        <Route Path="/register" element={<Register/>}/>
        <Route path="/login" element={<Login/>}/>
+       <Route path="/Mesa" element={<Mesa/>}/>
      </Routes>
     </BrowserRouter>
     <FooterS/>

@@ -2,15 +2,19 @@ import styled from "styled-components";
 
 const Footer = styled.div` 
 
-background-color: #B22222;
-color: #fff;
-padding: 1rem 0;
+background-color: #dc3545;
+color: #212529;
+padding: 0,9 rem 0;
 display: flex;
 align-items: center;
 justify-content: center;
 position: fixed;
 bottom: 0;
 width: 100vw;
+
+a {
+  color: #ffff;
+}
 `;
 
 export const FooterS = () => {
